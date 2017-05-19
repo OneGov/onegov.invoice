@@ -2,7 +2,6 @@ from onegov.core.orm import Base
 from onegov.core.orm.mixins import TimestampMixin
 from onegov.core.orm.types import UUID
 from onegov.core.utils import normalize_for_url
-from onegov.invoice import utils
 from sqlalchemy import Column, Text
 from sqlalchemy_utils import observes
 from uuid import uuid4
